@@ -1,12 +1,1 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-  <meta charset=utf-8>
-  <title>Fuego Azul Admin</title>
-</head>
-
-<body>
-<h1>hola mundo</h1>
-</body>
-</html>
+<!DOCTYPE html><html><head><meta charset=utf-8><title>Fuego Azul Admin</title><meta name=viewport content="width=device-width,initial-scale=1"><link rel=stylesheet href=./static/material.css><link href=/static/css/app.a0de11b4b86f33a5e67cb1f9060efdf0.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=/static/js/manifest.778c74bef721e7c4384b.js></script><script type=text/javascript src=/static/js/vendor.23d38207887ec34c1b86.js></script><script type=text/javascript src=/static/js/app.b14707713edc217e7292.js></script></body></html>
