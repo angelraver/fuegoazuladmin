@@ -4,12 +4,15 @@ class Database {
 
   public function getConnection(){
     $this->conn = null;
+    echo "el servidor es: " . $_SERVER['SERVER_NAME'];
     if($_SERVER['SERVER_NAME'] === '127.0.0.1') {
+      echo "LOCAL";
       $user = "root";
       $pass = "";
       $host = "127.0.0.1";
       $db = "vals";
     } else {
+      echo "prod";
       $cleardb_url = parse_url(getenv("CLEARDB_DATABASE_URL"));
       $host = $cleardb_url["host"];
       $user = $cleardb_url["user"];
